@@ -18,8 +18,8 @@ const TopVillas = () => {
                         villas.slice(0, 3).map(element => {
                             return (
                                 <Link className='card' to={`/villa/${element.id}`} key={element.id}>
-                                    <img src={element.image} alt={element.name} data-aos="fade-down" data-aos-duration="1000"
-                                        data-aos-easing="ease-in-out" />
+                                    <img src={element.image} alt={element.name} />data-aos="fade-down" data-aos-duration="1000"
+                                    data-aos-easing="ease-in-out"
                                     <div className="location_text">
                                         <span>
                                             {element.location}
